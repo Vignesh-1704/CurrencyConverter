@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)),url('images/money.jpg');
+    background-size: cover;
+}
+
+.container{
+    border: 5px solid black;
+    padding: 2% 2%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+}
+
+.container header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+
+.select-box{
+    display: flex;
+    width: 56px;
+    border: 1px solid white;
+    height: 19px;
+    background-color: white;
+}
+
+input[type=number]{
+    display: inline-block;
+}
+
+.select-box select{
+    width: auto;
+    border: none;
+}
+
+.middle {
+	color: #f59300;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.middle button {
+	background-color: #fff;
+	border: 2px solid #ecf0f1;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #f59300;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 30px;
+	transform: rotate(90deg);
+}
+.middle button:active {
+	transform: rotate(90deg) scale(0.9);
+}
+.middle .rate {
+	background-color: #fff;
+	border: 2px solid #ecf0f1;
+	border-radius: 50px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	padding: 0 10px;
+	margin: 30px 15px 30px 25px;
+}
+
+
